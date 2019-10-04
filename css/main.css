@@ -6,7 +6,7 @@
 body{
     text-align : center;
     min-width: 360px;
-    
+
     margin: 0;
 }
 
@@ -27,7 +27,7 @@ body{
 @keyframes bgColor {
     0%   {background-color: #f44274;}
     25%  {background-color: #f4f142;}
-    50%  {background-color: #42b6f4;}
+    50%  {background-color: #23516D;}
     100% {background-color: #42f49e;}
 }
 
@@ -37,14 +37,14 @@ img{
     border-radius : 100px;
     box-shadow : 2px 2px 10px #888;
     vertical-align: middle;
-    width:230px; 
-    height: 250px;
+    width:230px;
+    height: auto;
 }
 
 .name{
     font-size : 30px;
     text-shadow : 2px 2px 10px #888;
-    
+
 }
 
 #tags{
@@ -55,12 +55,12 @@ img{
     margin : 15px;
     border-radius : 100%;
     font-size : 50px;
-    
+
 }
 
 .icons a:hover i{
     box-shadow : 2px 2px 10px #888;
-    
+
 }
 
 .fa-facebook{
@@ -73,7 +73,7 @@ img{
     For reaponsiveness across all the devices using @media queries.
 */
 @media screen and (max-width: 500px) {
-   
+
    .icons i{
         font-size : 30px;
     }
@@ -91,7 +91,7 @@ img{
         width : 26px;
     }
     img {
-        width:180px; 
+        width:180px;
         height: 200px;
     }
     body{
